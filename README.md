@@ -41,11 +41,11 @@ to actually create a new widget. Below are the bare minimum instructions to crea
 
 1. Create yourself a folder for your widget
 2. Create an empty _config.php in your new folder
-3. Create a <WidgetName>.php file in your folder that contains the class
+3. Create a {WidgetName}.php file in your folder that contains the class
 ```php
-class <WidgetName> extends Widget {}
+class {WidgetName} extends Widget {}
 ```
-4. Create a <WidgetName>.ss file in your folder with the required template you need for your widget
+4. Create a {WidgetName}.ss file in your folder with the required template you need for your widget
 
 In your new php class you can define the fields and a getCMSFields() method in the same way you would any other
 DataObject
