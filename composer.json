@@ -1,0 +1,29 @@
+{
+	"name": "zucchi/widgets",
+	"description": "Alternative Widgets Module",
+	"type": "silverstripe-module",
+    "keywords" : ["silverstripe", "widgets"],
+    "license" : "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Matt Cockayne",
+            "email": "matt@zucchi.co.uk",
+            "homepage": "http://zucchi.co.uk",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "dev@zucchi.co.uk",
+        "issues": "https://github.com/zucchi/Silverstripe-Widgets/issues",
+        "wiki": "https://github.com/zucchi/Silverstripe-Widgets/wiki",
+        "source": "https://github.com/zucchi/Silverstripe-Widgets"
+    },
+    "target-dir" : "widgets",
+	"require": {
+		"silverstripe/framework": "3.*",
+        "silverstripe/cms": "3.*"
+	},
+    "conflict": {
+        "silverstripe/widgets":"*"
+    }
+}
