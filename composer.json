@@ -18,12 +18,14 @@
         "wiki": "https://github.com/zucchi/Silverstripe-Widgets/wiki",
         "source": "https://github.com/zucchi/Silverstripe-Widgets"
     },
-    "target-dir" : "widgets",
-	"require": {
-		"silverstripe/framework": "3.*",
+    "require": {
+	"silverstripe/framework": "3.*",
         "silverstripe/cms": "3.*"
-	},
+    },
     "conflict": {
         "silverstripe/widgets":"*"
+    },
+    "extra": {
+	    "installer-name": "widgets"
     }
 }
