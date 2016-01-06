@@ -1,6 +1,6 @@
 <?php
 
-class WidgetPageExtension extends DataExtension {
+class ZucchiWidgetPageExtension extends DataExtension {
 
     private static $many_many = array(
         'Widgets' => 'Widget'

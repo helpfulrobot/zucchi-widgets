@@ -6,7 +6,7 @@
  * Time: 15:08
  */
 
-class Widget extends DataObject{
+class ZucchiWidget extends DataObject{
 
     private static $db = array(
         'Title' => 'Text',
