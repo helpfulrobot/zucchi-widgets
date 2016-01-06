@@ -1,5 +1,5 @@
 {
-	"name": "zucchi/widgets",
+	"name": "phpboyscout/widgets",
 	"description": "Alternative Widgets Module",
 	"type": "silverstripe-module",
     "keywords" : ["silverstripe", "widgets"],
@@ -7,16 +7,16 @@
     "authors": [
         {
             "name": "Matt Cockayne",
-            "email": "matt@zucchi.co.uk",
-            "homepage": "http://zucchi.co.uk",
+            "email": "matt@phpboyscout.uk",
+            "homepage": "http://phpboyscout.uk",
             "role": "Developer"
         }
     ],
     "support": {
         "email": "dev@zucchi.co.uk",
-        "issues": "https://github.com/zucchi/Silverstripe-Widgets/issues",
-        "wiki": "https://github.com/zucchi/Silverstripe-Widgets/wiki",
-        "source": "https://github.com/zucchi/Silverstripe-Widgets"
+        "issues": "https://github.com/phpboyscout/Silverstripe-Widgets/issues",
+        "wiki": "https://github.com/phpboyscout/Silverstripe-Widgets/wiki",
+        "source": "https://github.com/phpboyscout/Silverstripe-Widgets"
     },
     "require": {
 	"silverstripe/framework": "3.*",
